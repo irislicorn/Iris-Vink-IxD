@@ -1,0 +1,93 @@
+body {
+  background: url(Mars.jpg) no-repeat;
+  
+ 
+  background-color: black;
+
+  border-width: 0,2px;
+font-family: 'Aldrich', sans-serif;
+
+}
+
+
+
+.grid-container > div {
+  padding: 0.2em 1em;
+}
+
+.grid-container > div:nth-child(1) {
+    
+color:white;
+border-width: thin;
+height:200;
+
+
+}
+
+
+.grid-container > div:nth-child(2) {
+   
+color:white;
+
+background: url(change-car-oil.svg) no-repeat;
+background-size:contain;  
+min-height: 100px
+
+}
+.grid-container > div:nth-child(3) {
+
+background: url(speedo.gif) no-repeat center;
+  background-size:contain;
+  min-height: 150px;
+  
+
+}
+.grid-container > div:nth-child(4) {
+    
+color:white;
+
+background: url(celsius.svg) no-repeat;
+  background-size:contain;
+  text-align: right;
+}
+.grid-container > div:nth-child(5) {
+
+background: url(a2f.gif) no-repeat;
+  
+}
+
+
+.databalk {
+	height:24px;
+	width:80%;
+	background-color:#ce6338;
+}
+
+.databalk2 {
+	height:24px;
+	width:60%;
+	background-color:#ce6338;
+}
+
+#fuel {
+	
+background-color:#ce6338;
+width: 100;
+}
+
+
+#heat {
+	
+background-color:#ce6338;
+
+;
+}
+
+
+
+
+
+
+
+
+
