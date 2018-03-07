@@ -1,14 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
 body {
-  background: url(Mars.jpg) no-repeat;
+  
   
  
   background-color: black;
 
   border-width: 0,2px;
-font-family: 'Aldrich', sans-serif;
-
+font-family: 'Poppins', sans-serif;
 }
-
 
 
 .grid-container > div {
@@ -48,6 +48,7 @@ color:white;
 
 background: url(celsius.svg) no-repeat;
   background-size:contain;
+  background-position: left;
   text-align: right;
 }
 .grid-container > div:nth-child(5) {
@@ -58,29 +59,49 @@ background: url(a2f.gif) no-repeat;
 
 
 .databalk {
-	height:24px;
-	width:80%;
-	background-color:#ce6338;
+	height:50px;
+	width:100%;
+	background-color:transparent;
+	border: 1px solid #EA963E;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
 }
+
+.databalk span {
+	display: inline;
+}
+
 
 .databalk2 {
 	height:24px;
 	width:60%;
-	background-color:#ce6338;
+	
 }
 
 #fuel {
 	
-background-color:#ce6338;
-width: 100;
+background-color:transparent;
+	border: 1px solid #EA963E;
+	border-radius: 5px;
+
 }
 
 
 #heat {
 	
-background-color:#ce6338;
+background-color:transparent;
+	border: 1px solid #EA963E;
+	border-radius: 5px;
+
 
 ;
+}
+#orange{
+	color:#EA963E;
+	display: inline-flex;
 }
 
 

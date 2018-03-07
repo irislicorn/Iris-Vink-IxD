@@ -5,24 +5,24 @@
   grid-gap: 40px;
 
   grid-template-areas: 
-        "title"
-        "menu"
-        "main"
+        "key"
+        "speedo"
+        "oil"
         "ad"
         "foot"; 
 }
 
 
 .box1{
-  grid-area: title;
+  grid-area: key;
 } 
 
 .box2{
-  grid-area: main;
+  grid-area: oil;
 }
 
 .box3 {
-  grid-area: menu;
+  grid-area: speedo;
 }
 
 .box4 {
@@ -45,9 +45,9 @@
     grid-gap: 10px;
 
     grid-template-areas: 
-          "title title"
-          "main  main"
-          "menu  ad"
+          "key key"
+          "oil  oil"
+          "speedo  ad"
           "foot  foot"; 
   }
 }
@@ -62,9 +62,9 @@
     grid-gap: 10px;
 
     grid-template-areas: 
-          "title title title"
-          "main main menu"
-          "main main ad"
+          "key key key"
+          "oil oil speedo"
+          "oil oil ad"
           "foot foot foot"; 
   }
 }
@@ -81,9 +81,9 @@
     grid-gap: 10px;
 
     grid-template-areas: 
-          "menu      title     title     title title"
-          "menu      latest    main      main  main"
-          "menu      .         main      main  main"
+          "speedo      key     key key key    "
+          "speedo      latest    oil     oil  oil"
+          "speedo      .         oil      oil  oil"
           "highlight highlight highlight ad    ad"
           "foot      foot      foot      foot  foot"; 
   }
